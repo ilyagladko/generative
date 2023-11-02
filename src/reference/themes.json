@@ -1,0 +1,34 @@
+{
+  "mono": {
+    "colors": ["#ffffff", "#aaaaaa", "#888888"],
+    "wipe": "rgba(0,0,0,.2)"
+  },
+  "primary": {
+    "colors": ["#3D6AF2", "#02732A", "#F2E205", "#F24130"],
+    "wipe": "rgba(0,0,78,.01)"
+  },
+  "nanoplastic": {
+    "colors": ["#A65DA1", "#F2E638", "#F2C230", "#BF8821", "#8C5A1C"],
+    "wipe": "rgba(78,0,100,.08)"
+  },
+  "organic": {
+    "colors": ["#3D5928", "#707326", "#A3A64E", "#BFA584", "#D9BC9A"],
+    "wipe": "rgba(50,50,0,.05)"
+  },
+  "faroe": {
+    "colors": ["#150140", "#5C5173", "#F2A766", "#F27E63", "#F25E5E"],
+    "wipe": "rgba(203, 180, 180, .05)"
+  },
+  "lichens": {
+    "colors": ["#58462D", "#8A6F7D", "#656783", "#ffffff", "#677C66"],
+    "wipe": "rgba(0,0,0,.05)"
+  },
+  "fluorescent": {
+    "colors": ["#F266A7", "#1ED9C6", "#85F238", "#F2D22E", "#F2F2F2"],
+    "wipe": "rgba(242,242,242, .1)"
+  },
+  "matrix": {
+    "colors": ["#333333", "#00ff00", "#00ff00"],
+    "wipe": "rgba(0,0,0,.1)"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "4 star hotel": {
+    "rows": 2,
+    "columns": 4,
+    "oldWonk": true,
+    "wonkSegments": 8,
+    "wonkFactor": 0.8,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 300,
+        "pct": 50
+      },
+      "drawLoopTransform": {
+        "matrices": [
+          [0.99, -0.01, -0.01, 1.01, 0, 0],
+          [1.01, 0.01, 0.01, 0.99, 0, 0]
+        ]
+      }
+    },
+    "maxFrames": 12
+  },
+  "5 star hotel": {
+    "rows": 6,
+    "columns": 3,
+    "oldWonk": true,
+    "wonkSegments": 5,
+    "wonkFactor": 0.5,
+    "fillOpacity": 100,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 1000,
+        "pct": 100
+      },
+      "drawLoopTransform": {
+        "matrices": [
+          [0.99, -0.01, -0.01, 1.01, 0, 0],
+          [1.01, 0.01, 0.01, 0.99, 0, 0]
+        ]
+      }
+    },
+    "maxFrames": 3
+  },
+  "abstract": {
+    "rows": 1,
+    "columns": 1,
+    "maxFrames": 4
+  },
+  "mid-century": {
+    "rows": 3,
+    "columns": 3,
+    "oldWonk": true,
+    "wonkSegments": 1,
+    "wonkFactor": 3,
+    "features": {
+      "borderCross": {
+        "x": false,
+        "y": true,
+        "amt": 900,
+        "pct": 100
+      },
+      "drawLoopTransform": {
+        "matrices": [
+          [0.98, -0.02, -0.02, 1.02, 3, 0],
+          [1.02, 0.02, 0.02, 0.98, -3, 0]
+        ]
+      }
+    },
+    "maxFrames": 10
+  },
+  "curvist": {
+    "rows": 8,
+    "columns": 4,
+    "fillOpacity": 220,
+    "strokeOpacity": 200,
+    "strokeWeight": 80,
+    "wipeOpacity": 0,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 80,
+        "pct": 20
+      }
+    },
+    "maxFrames": 3
+  },
+  "geomarble": {
+    "rows": 30,
+    "columns": 30,
+    "fillOpacity": 220,
+    "strokeOpacity": 200,
+    "strokeWeight": 5,
+    "wipeOpacity": 0,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 25,
+        "pct": 90
+      },
+      "gridLoopTransform": {
+        "matrices": [
+          [0.99, 0, 0, 1.01, 0, 1],
+          [1.01, 0, 0, 0.99, 0, 0]
+        ]
+      },
+      "drawLoopTransform": {
+        "matrices": [[1.0, 0.0, 0.0, 1.0, 0, 0]]
+      }
+    },
+    "maxFrames": 24
+  },
+  "flock of birds": {
+    "rows": 8,
+    "columns": 8,
+    "wonkSegments": 2,
+    "wonkFactor": 30,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 30,
+        "pct": 20
+      }
+    },
+    "maxFrames": 2
+  },
+  "shattered": {
+    "rows": 3,
+    "columns": 3,
+    "oldWonk": true,
+    "wonkSegments": 1,
+    "wonkFactor": 300,
+    "strokeOpacity": 160,
+    "strokeWeight": 1,
+    "features": {
+      "borderCross": {
+        "x": false,
+        "y": true,
+        "amt": 900,
+        "pct": 30
+      }
+    },
+    "maxFrames": 3
+  },
+  "haystack": {
+    "rows": 12,
+    "columns": 12,
+    "wonkSegments": 2,
+    "wonkFactor": 400,
+    "fillOpacity": 130,
+    "features": {
+      "borderCross": {
+        "x": false,
+        "y": true,
+        "amt": 0,
+        "pct": 0
+      }
+    },
+    "maxFrames": 2
+  },
+  "minecraft": {
+    "rows": 3,
+    "columns": 2,
+    "wipeOpacity": 0,
+    "maxFrames": 1
+  },
+  "linen haze": {
+    "rows": 9,
+    "columns": 12,
+    "wonkSegments": 12,
+    "wonkFactor": 2,
+    "fillOpacity": 20,
+    "wipeOpacity": 10,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 350,
+        "pct": 50
+      }
+    },
+    "maxFrames": 10
+  },
+  "cobblestone": {
+    "rows": 16,
+    "columns": 16,
+    "wonkSegments": 8,
+    "wonkFactor": 3,
+    "features": {
+      "borderCross": {
+        "x": false,
+        "y": true,
+        "amt": 40,
+        "pct": 100
+      }
+    },
+    "maxFrames": 14
+  },
+  "linear": {
+    "rows": 2,
+    "columns": 120,
+    "wonkSegments": 8,
+    "wonkFactor": 3,
+    "features": {
+      "borderCross": {
+        "x": false,
+        "y": true,
+        "amt": 400,
+        "pct": 100
+      }
+    },
+    "maxFrames": 6
+  },
+  "digital burst": {
+    "rows": 12,
+    "columns": 12,
+    "fillOpacity": 20,
+    "strokeOpacity": 255,
+    "strokeWeight": 0.5,
+    "wipeOpacity": 40,
+    "features": {
+      "gridLoopTransform": {
+        "matrices": [[1.015, 0.0067, -0.0067, 1.015, 0, 0]]
+      }
+    },
+    "maxFrames": 20
+  },
+  "city life": {
+    "rows": 1,
+    "columns": 12,
+    "wonkSegments": 4,
+    "wonkFactor": 0.5,
+    "strokeOpacity": 0,
+    "wipeOpacity": 20,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 100,
+        "pct": 20
+      },
+      "gridLoopTransform": {
+        "matrices": [[1.2, 0, 0, 1.2, 10, 14]]
+      }
+    },
+    "maxFrames": 6
+  },
+  "file read error": {
+    "rows": 1,
+    "columns": 120,
+    "wonkSegments": 4,
+    "wonkFactor": 0.5,
+    "strokeOpacity": 20,
+    "strokeWeight": 4,
+    "wipeOpacity": 20,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": true,
+        "amt": 800,
+        "pct": 20
+      },
+      "gridLoopTransform": {
+        "matrices": [[1, 0, 0, 1, 10, 14]]
+      }
+    },
+    "maxFrames": 6
+  },
+  "rays": {
+    "rows": 50,
+    "columns": 1,
+    "wonkSegments": 15,
+    "wonkFactor": 0.5,
+    "strokeOpacity": 5,
+    "strokeWeight": 150,
+    "wipeOpacity": 30,
+    "features": {
+      "borderCross": {
+        "x": true,
+        "y": false,
+        "amt": 1400,
+        "pct": 100
+      },
+      "gridLoopTransform": {
+        "matrices": [[1, 0.2, -0.2, 1, -2, -2]]
+      },
+      "drawLoopTransform": {
+        "matrices": [[1, 0, 0, 1, 0, 0]]
+      }
+    },
+    "maxFrames": 6
+  },
+  "windstorm": {
+    "rows": 120,
+    "columns": 1,
+    "wonkSegments": 5,
+    "wonkFactor": 1.5,
+    "strokeOpacity": 10,
+    "strokeWeight": 50,
+    "wipeOpacity": 30,
+    "features": {
+      "gridLoopTransform": {
+        "matrices": [[1, 0, 0, 1, -100]]
+      },
+      "drawLoopTransform": {
+        "matrices": [[1.3, 0.2, -0.2, 1.3, -20, -100]]
+      }
+    },
+    "maxFrames": 3
+  }
+}

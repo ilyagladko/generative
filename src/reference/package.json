@@ -1,0 +1,17 @@
+{
+  "name": "generative-art-machine",
+  "version": "1.0.0",
+  "description": "This is a static template with no bundling",
+  "main": "index.html",
+  "scripts": {
+    "build": "exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Graham Batzler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/batzlerg"
+  },
+  "homepage": "https://github.com/batzlerg"
+}

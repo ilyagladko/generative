@@ -1,0 +1,145 @@
+:root {
+  --ui-color: rgb(80, 80, 80);
+  --ui-color-med: rgb(60, 60, 60);
+  --ui-color-dark: rgb(40, 40, 40);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ui-color-dark);
+  height: 100%;
+}
+
+#macheen {
+  display: block;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 500px;
+  transition: all 1s ease-in-out;
+
+  /* sticky footer wrapper */
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+#canvasWrapper {
+  display: inline-block;
+}
+
+canvas {
+  margin: 0 auto;
+  display: block;
+}
+
+#controlsContainer {
+  max-width: 500px;
+  position: relative;
+  margin-top: 1rem;
+}
+
+label {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0;
+  margin-right: 1rem;
+  margin-bottom: 0.2rem;
+  background-color: var(--ui-color);
+  color: white;
+  padding: 0.5rem;
+}
+
+select {
+  display: inline-block;
+}
+
+select,
+input {
+  font-size: 1rem;
+  width: 8rem;
+}
+
+.controlButton {
+  /* position: absolute; */
+  right: 0;
+  font-size: 1.1rem;
+  padding: 0.75rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  background-color: var(--ui-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controlButton:active {
+  background-color: var(--ui-color-med);
+}
+
+@keyframes click {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+.controlButton:focus {
+  animation: click 0.1s;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+#dev {
+  display: block;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  text-align: center;
+  width: 500px;
+}
+
+.controlRow {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.controlRow span {
+  margin: 1rem 0.5rem 0.5rem 0;
+}
+
+a {
+  color: rgb(0, 125, 125);
+}
+
+a:visited {
+  color: rgb(200, 0, 200);
+}
